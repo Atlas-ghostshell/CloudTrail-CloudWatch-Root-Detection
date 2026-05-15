@@ -139,8 +139,7 @@ The full pipeline was validated end-to-end:
 4. CloudWatch alarm transitioned from `OK` to `ALARM` state
 5. SNS topic published the notification
 6. Email delivered confirming: `Threshold Crossed: 1 out of the last 1 datapoints [3.0] was greater than or equal to the threshold (1.0)`
-
-**Detection latency:** Under 15 minutes from login to email — inclusive of CloudTrail delivery lag (~5–15 min) and alarm evaluation period (5 min).
+.
 
 ---
 
